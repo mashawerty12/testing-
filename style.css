@@ -1,0 +1,22 @@
+body {
+  background-color: darkblue;
+}
+
+.logo {
+  width: 150px;
+  margin-left: 10px;
+  margin-right: 200px;
+}
+
+.logo-con {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.site_name {
+  
+  margin-top: 70px;
+  color: aliceblue;
+  font-size: 50px;
+}

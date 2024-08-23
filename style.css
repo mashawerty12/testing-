@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
 body {
   background-color: darkblue;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
 }
 
 .logo {
@@ -15,8 +19,13 @@ body {
 }
 
 .site_name {
-  
   margin-top: 70px;
   color: aliceblue;
   font-size: 50px;
+}
+
+
+nav{
+  background-color: aliceblue;
+  padding: 10px;
 }

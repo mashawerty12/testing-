@@ -4,6 +4,7 @@ body {
   background-color: darkblue;
   font-family: "Roboto Condensed", sans-serif;
   margin: 0;
+  color: #fff131;
 }
 
 .logo {
@@ -20,13 +21,13 @@ body {
 
 .site_name {
   margin-top: 70px;
-  color: aliceblue;
+  color: #fff131;
   font-size: 50px;
 }
 
 
 nav{
-  background-color: aliceblue;
+  background-color: #fff131;
   padding: 10px;
   display: flex;
   justify-content: space-around;
@@ -46,8 +47,8 @@ nav a:hover{
 
 .stick{
     height: 8px;
-    width: 702px;
-    background-color: aliceblue;
+    width: 700px;
+    background-color: #fff131;
     position: absolute;
     top: 119px;
     right: 0;

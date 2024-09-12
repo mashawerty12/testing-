@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  background: linear-gradient(135deg, #1d405c, #28587b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h1 {
+  color: #28587b;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.subtitle {
+  color: #28587b;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.login-form label {
+  display: block;
+  color: #28587b;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #f4f4f4;
+  transition: all 0.3s ease;
+}
+
+.login-form input:focus {
+  border-color: #63a6db;
+  background-color: white;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0b416e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #28587b;
+}
+
+.options {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.options a {
+  text-decoration: none;
+  color: #28587b;
+  font-size: 14px;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}

@@ -10,79 +10,74 @@ body {
   align-items: center;
   height: 100vh;
 }
+html {
+  height: 100%;
+}
 
-.login-container {
-  background-color: white;
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
   padding: 40px;
-  border-radius: 12px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 400px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
   text-align: center;
 }
 
-h1 {
-  color: #28587b;
-  margin-bottom: 10px;
-  font-size: 28px;
+.login-box .user-box {
+  position: relative;
 }
 
-.subtitle {
-  color: #28587b;
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
   font-size: 16px;
+  color: #fff;
   margin-bottom: 30px;
-}
-
-.login-form label {
-  display: block;
-  color: #28587b;
-  text-align: left;
-  margin-bottom: 8px;
-}
-
-.login-form input {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 16px;
-  background-color: #f4f4f4;
-  transition: all 0.3s ease;
-}
-
-.login-form input:focus {
-  border-color: #63a6db;
-  background-color: white;
-}
-
-.login-form button {
-  width: 100%;
-  padding: 12px;
-  background-color: #0b416e;
-  color: white;
   border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 18px;
-  transition: background-color 0.3s ease;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
 }
 
-.login-form button:hover {
-  background-color: #28587b;
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
 }
 
-.options {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.options a {
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #03e9f4;
+  font-size: 16px;
   text-decoration: none;
-  color: #28587b;
-  font-size: 14px;
-}
-
-.options a:hover {
-  text-decoration: underline;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
 }
